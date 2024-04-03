@@ -92,23 +92,35 @@ img {
 
 .gallery-item {
   position: relative;
-  min-height: 50px;
+  height: 400px;
 }
 
 .gallery-image {
   width: 100%;
-  height: auto;
+  height: 100%; /* Adjust height */
+  object-fit: cover; /* Ensure images cover their space */
   border-radius: 5px;
 }
 
 .gallery-item-info {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%; /* Cover the whole width of the image */
+  height: 100%; /* Cover the whole height of the image */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 5px; /* Same as image */
   color: #fff;
   padding: 0.5rem;
+  opacity: 0; /* Initially hide the element */
+  transition: opacity 0.3s ease; /* Add transition effect for smooth appearance */
+}
+
+.gallery-item:hover .gallery-item-info {
+  opacity: 1; /* Show the element when its parent is hovered over */
 }
 
 .gallery-item-info ul {

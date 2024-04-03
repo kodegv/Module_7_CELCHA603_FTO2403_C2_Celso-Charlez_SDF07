@@ -84,6 +84,12 @@ img {
   margin: 0;
 }
 
+/* Gallery items */
+
+.visually-hidden {
+  display: none;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three items per row */

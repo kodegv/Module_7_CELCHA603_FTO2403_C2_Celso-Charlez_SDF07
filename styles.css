@@ -104,7 +104,7 @@ img {
 .gallery-image {
   width: 100%;
   height: 100%; /* Adjust height */
-  object-fit: cover; /* Ensure images cover their space */
+  object-fit: cover; /* ensure images cover their space */
   border-radius: 5px;
 }
 

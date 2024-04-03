@@ -83,3 +83,49 @@ img {
 .profile-bio p {
   margin: 0;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three items per row */
+  grid-gap: 1rem;
+}
+
+.gallery-item {
+  position: relative;
+  min-height: 50px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.gallery-item-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.gallery-item-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item-info li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.fa-heart,
+.fa-comment,
+.fa-video,
+.fa-clone {
+  margin-right: 0.2rem;
+}

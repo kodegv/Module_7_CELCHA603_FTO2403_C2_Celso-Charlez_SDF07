@@ -160,3 +160,9 @@ img {
 .fa-clone {
   margin-right: 0.2rem;
 }
+
+/* Hiding odd icon */
+
+.fa-clone {
+  display: none;
+}

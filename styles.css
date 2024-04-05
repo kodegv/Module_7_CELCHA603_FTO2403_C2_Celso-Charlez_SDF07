@@ -22,6 +22,11 @@ img {
   display: block;
 }
 
+#profile-image-cat {
+  height: 150px;
+  width: 150px;
+}
+
 #header-container {
   margin-bottom: 30px;
   font-size: 15px;

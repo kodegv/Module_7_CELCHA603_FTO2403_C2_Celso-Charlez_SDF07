@@ -94,7 +94,9 @@ img {
   cursor: pointer;
 }
 
-.
+.btn-profile-edit:hover {
+  background-color: #cecece;
+}
 
 /* Gallery items */
 

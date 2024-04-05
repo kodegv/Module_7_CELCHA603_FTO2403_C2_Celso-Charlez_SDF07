@@ -55,14 +55,9 @@ img {
 
 .profile-user-settings {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 1rem;
-}
-
-.profile-user-settings {
-  display: flex;
-  justify-content: space-around;
-  gap: 5px;
 }
 
 .profile-user-settings .btn {
@@ -95,6 +90,11 @@ img {
 
 .profile-bio p {
   margin: 0;
+}
+
+/* Music video in bio */
+#music-video-link {
+  text-decoration: none;
 }
 
 /* Gallery items */

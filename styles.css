@@ -24,6 +24,7 @@ img {
 
 #header-container {
   margin-bottom: 30px;
+  font-size: 15px;
 }
 
 /* Profile Styles */
@@ -96,6 +97,19 @@ img {
 
 .btn-profile-edit:hover {
   background-color: #cecece;
+}
+
+/* Cog button styles */
+
+#settings-cog {
+  border: 0;
+}
+
+#settings-cog:hover {
+  cursor: pointer;
+  background-color: #cecece;
+  border: #cecece solid 0;
+  border-radius: 60px;
 }
 
 /* Gallery items */

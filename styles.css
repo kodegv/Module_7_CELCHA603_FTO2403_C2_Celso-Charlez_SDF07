@@ -60,18 +60,6 @@ img {
   margin-bottom: 1rem;
 }
 
-.profile-user-settings .btn {
-  margin-right: 1rem;
-}
-
-.profile-user-settings .btn:last-child {
-  margin-right: 0;
-}
-
-.profile-user-settings .btn i {
-  margin-right: 0.2rem;
-}
-
 .profile-stats {
   display: flex;
   margin-bottom: 1rem;
@@ -96,6 +84,17 @@ img {
 #music-video-link {
   text-decoration: none;
 }
+
+/* Button styles */
+
+.btn-profile-edit {
+  border: #cecece solid 1px;
+  border-radius: 2px;
+  padding: 3px 15px;
+  cursor: pointer;
+}
+
+.
 
 /* Gallery items */
 

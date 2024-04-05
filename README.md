@@ -1,51 +1,25 @@
 # [SDF07] Project: CodeSpace Pets Instagram Profile
 
-Welcome to the CodeSpace Pets Instagram Profile project, where you'll get hands-on experience applying CSS layout concepts. In this project, we will have fun recreating a simplified version of an Instagram user profile page. You aim to practice using CSS for styling and layout to create a visually appealing and responsive web page.
+Welcome to my submission for the SDF07 CodeSpace Pets Instagram profile project! In this project, I had the opportunity to explore and practice various CSS techniques, including CSS grids, flex displays, and flexbox. It was an enjoyable journey transforming HTML into a stylish Instagram profile.
 
-**Check out the Starter Code:** [CodeSpace-Academy/Module_7_StudentNo_Classcode_Group_Name-Surname_SDF07 (github.com)](https://github.com/CodeSpace-Academy/Module_7_StudentNo_Classcode_Group_Name-Surname_SDF07)
+## Challenges:
 
-![!\[alt text\](CodeSpacePetsInstagram.gif)](CodeSpacePetsInstagram.gif)
+Throughout the project, I encountered several challenges that helped me grow as a developer:
 
-**What You'll Learn:**
+1. **Spacing Between Flex Display Elements:** Achieving consistent spacing between flex display elements proved to be challenging. It required experimenting with different CSS properties to ensure proper alignment and spacing.
 
-- Apply CSS styling to an HTML structure to achieve a design resembling an Instagram profile.
-- Demonstrate proficiency in CSS layout techniques, including flexbox and grid.
-- Create a responsive web page that adapts to different screen sizes.
-- Practice using basic HTML and CSS to create a cohesive user interface.
+2. **Organizing CSS File:** As the CSS file grew larger, organizing the styles became increasingly challenging. I had to develop a systematic approach to structuring my CSS rules to maintain readability and ease of maintenance.
 
-**Project Requirements:**
+3. **HTML Classes with Spaces:** Initially, I faced difficulties with HTML classes that contained spaces. To overcome this issue, I opted to use IDs instead, which provided a cleaner solution while maintaining specificity.
 
-1. **Start with Provided HTML**: You'll begin with a starter HTML code provided in the project. 
-2. **CSS Styling**: Your task is to write CSS code to style the HTML elements and create the desired layout. Pay attention to the following:
-    - Positioning and styling the profile image.
-    - Styling the user's profile information, including username, bio, and stats.
-    - Creating a responsive layout for the gallery section.
-    - Implementing hover and focus effects for interactive elements.
-    - Add a dynamic loading wheel at the bottom of the gallery.
-3. **Responsive Design**:
-    - Ensure your web page looks good and functions properly on desktop and mobile devices.
-    - Implement responsive design using media queries, making adjustments for smaller screens.
-4. **CSS Features**:
-    - Explore CSS features such as `box-sizing`, `flexbox`, and `grid` layout where they are suitable.
-    - Apply appropriate font sizes, colors, and spacing to achieve a visually pleasing design.
+## What I Learned:
 
-**Deliverables:**
+Throughout this project, I gained valuable insights and skills, including:
 
-1. **Styled Web Page**: Your main output should be a styled web page closely resembling an Instagram profile, using the provided HTML and reference video as a starting point.
-2. **CSS Code**: Submit your CSS code as a separate file or within the HTML file's `<style>` tags.
-   
-**What to Hand In | Submit**
+1. **Hover Actions:** Implementing hover actions was an exciting learning experience yet again. Even though I had epxerience from previous lessons, making sure I remember how to utilise the hover actions was my main goal for some elements, like the buttons and gallery items.
 
-You will submit the GitHub project link with your final project files to the LMS. 
+2. **Flex Display for Columns:** Utilising flex display for creating columns provided a flexible and responsive layout. I learned how to efficiently structure content in a grid format while ensuring compatibility across various screen sizes.
 
-1. Clone the starter code.
-2. Make sure your repository is public.
-3. Code your solution.
-4. Submit all your changes to your GitHub project repo.
-5. Submit your GitHub repo link to the LMS.
+Overall, this project was a fantastic opportunity to apply and expand my knowledge of CSS techniques. I look forward to implementing these skills in future projects and continuing to refine my development skills.
 
-**HOW to submit your project**
-
-1. Submit the GitHub project link with your final project files to the LMS. You will find this in the LMS [**[Projects](https://learn.codespace.co.za/projects)**] tab.
-
-Enjoy the project, and have fun turning HTML into a stylish Instagram profile!
+Enjoy exploring the CodeSpace Pets Instagram profile! Make sure to watch the YouTube video in the bio 😉
